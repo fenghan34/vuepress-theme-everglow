@@ -2,6 +2,11 @@
   "name": "vuepress-theme-everglow",
   "version": "1.0.0",
   "description": "A blog theme for VuePress.",
+  "keywords": [
+    "vuepress-theme",
+    "vuepress",
+    "blog"
+  ],
   "bugs": {
     "url": "https://github.com/fenghan34/vuepress-theme-everglow/issues"
   },
