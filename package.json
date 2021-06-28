@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
+    "clean": "lerna run clean --stream ",
     "build": "tsc --build",
     "docs:dev": "vuepress dev docs --clean-cache --open",
     "docs:build": "vuepress build docs --clean-cache",
