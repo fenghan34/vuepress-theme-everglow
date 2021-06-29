@@ -1,6 +1,8 @@
+import path from 'path'
 import { defineUserConfig } from 'vuepress-vite'
 import type { DefaultThemeOptions } from 'vuepress-vite'
 
 export default defineUserConfig<DefaultThemeOptions>({
-  title: 'VuePress',
+  title: 'Everglow',
+  theme: path.resolve(__dirname, '../../packages/everglow/lib/node'),
 })
